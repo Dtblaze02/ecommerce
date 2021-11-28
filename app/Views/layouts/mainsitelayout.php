@@ -12,14 +12,14 @@
     rel="stylesheet">
 
 	<!-- Css Styles -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="<?= base_url()?>/assets/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="<?= base_url()?>/assets/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="<?= base_url()?>/assets/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="<?= base_url()?>/assets/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="<?= base_url()?>/assets/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="<?= base_url()?>/assets/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="<?= base_url()?>/assets/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="<?= base_url()?>/assets/css/style.css" type="text/css">
 
 	<title> <?= $this->renderSection("title") ?></title>
 
@@ -108,7 +108,7 @@
             </div>
         </div>
     </header>
-    <!-- Header Section End -->	
+    <!-- Header Section End -->
 
 <main id="content">
   <?= $this->renderSection("bodycontent") ?>
@@ -174,10 +174,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12">                
+            <div class="col-lg-12">
                 <div class="footer__copyright__text">
                     <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved</p>
-                </div>                
+                </div>
             </div>
         </div>
     </div>
@@ -196,15 +196,15 @@
 <!-- Search End -->
 
 <!-- Js Plugins -->
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/jquery-ui.min.js"></script>
-    <script src="assets/js/mixitup.min.js"></script>
-    <script src="assets/js/jquery.countdown.min.js"></script>
-    <script src="assets/js/jquery.slicknav.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/jquery.nicescroll.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="<?= base_url()?>/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="<?= base_url()?>/assets/js/bootstrap.min.js"></script>
+    <script src="<?= base_url()?>/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="<?= base_url()?>/assets/js/jquery-ui.min.js"></script>
+    <script src="<?= base_url()?>/assets/js/mixitup.min.js"></script>
+    <script src="<?= base_url()?>/assets/js/jquery.countdown.min.js"></script>
+    <script src="<?= base_url()?>/assets/js/jquery.slicknav.js"></script>
+    <script src="<?= base_url()?>/assets/js/owl.carousel.min.js"></script>
+    <script src="<?= base_url()?>/assets/js/jquery.nicescroll.min.js"></script>
+    <script src="<?= base_url()?>/assets/js/main.js"></script>
     </body>
 </html>
