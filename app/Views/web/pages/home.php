@@ -90,7 +90,7 @@ Home
         <div class="row property__gallery">
         <?php foreach ($new_products as $single_feature_product) { ?>
             <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="product__item">                    
+                <div class="product__item">
                     <div class="product__item__pic set-bg" data-setbg="assets/img/product/<?= $single_feature_product['product_image']?>">
                         <div class="label new">New</div>
                         <ul class="product__hover">
@@ -100,7 +100,7 @@ Home
                         </ul>
                     </div>
                     <div class="product__item__text">
-                        <h6><a href="#"><?= $single_feature_product['product_title']?></a></h6>
+                        <h6><a href="<?=base_url('single/'.$single_feature_product['id']) ?>"><?= $single_feature_product['product_title']?></a></h6>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -112,10 +112,10 @@ Home
                     </div>
                 </div>
             </div>
-            <?php }?>          
+            <?php }?>
 
         </div>
-       <!--end new products -->  
+       <!--end new products -->
     </div>
 </section>
 <!-- Product Section End -->
@@ -135,7 +135,7 @@ Home
                         </div>
                     </div>
                 <?php }?>
-            </div>                   
+            </div>
     </div>
 </section>
 <!-- Banner Section End -->
