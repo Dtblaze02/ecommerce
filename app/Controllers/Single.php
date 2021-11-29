@@ -11,7 +11,8 @@ class Single extends BaseController
     $products = new ProductsModel();
 		$data['single_product'] = $products->find($id);
     return view('web/pages/single', $data);
-  }
+  }  
+
 	//--------------------------------------------------------------------
 
 }
