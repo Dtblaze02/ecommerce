@@ -68,18 +68,11 @@
                 <div class="col-xl-6 col-lg-7">
                     <nav class="header__menu">
                         <ul>
-                            <li class="active"><a href="./index.html">Home</a></li>
-                            <li><a href="#">Women’s</a></li>
-                            <li><a href="#">Men’s</a></li>
+                            <li class="active"><a href="<?= base_url()?>">Home</a></li>
+                            <li><a href="<?= base_url('home/category/2')?>">Women’s</a></li>
+							<li><a href="<?= base_url('home/category/1')?>">Men’s</a></li>
+                            <li><a href="<?= base_url('home/category/3')?>">Kids</a></li>
                             <li><a href="#">Shop</a></li>
-                            <li><a href="#">Pages</a>
-                                <ul class="dropdown">
-                                    <li><a href="#">Product Details</a></li>
-                                    <li><a href="#">Shop Cart</a></li>
-                                    <li><a href="#">Checkout</a></li>
-                                    <li><a href="#">Blog Details</a></li>
-                                </ul>
-                            </li>
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
@@ -96,7 +89,7 @@
                             <li><a href="#"><span class="icon_heart_alt"></span>
                                 <div class="tip">2</div>
                             </a></li>
-                            <li><a href="#"><span class="icon_bag_alt"></span>
+                            <li><a href="<?=base_url('home/shopcart')?>"><span class="icon_bag_alt"></span>
                                 <div class="tip">2</div>
                             </a></li>
                         </ul>
