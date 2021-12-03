@@ -1,0 +1,426 @@
+CRITICAL - 2021-11-30 15:03:05 --> Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 435, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Toolbar.php(435): header('Content-Type: a...')
+#2 C:\laragon\www\ecommerce2\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 C:\laragon\www\ecommerce2\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\laragon\www\ecommerce2\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#5 C:\laragon\www\ecommerce2\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-30 15:03:05 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 15:03:09 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 15:03:10 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 15:03:10 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 15:03:11 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 15:03:11 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 15:03:11 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 15:31:43 --> Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 435, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Toolbar.php(435): header('Content-Type: a...')
+#2 C:\laragon\www\ecommerce2\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 C:\laragon\www\ecommerce2\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\laragon\www\ecommerce2\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#5 C:\laragon\www\ecommerce2\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-30 15:31:43 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 15:31:45 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 15:31:45 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 15:31:45 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 15:31:45 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 15:31:45 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 15:31:45 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 16:58:56 --> Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 435, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Toolbar.php(435): header('Content-Type: a...')
+#2 C:\laragon\www\ecommerce2\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 C:\laragon\www\ecommerce2\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\laragon\www\ecommerce2\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#5 C:\laragon\www\ecommerce2\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-30 16:58:57 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 16:58:59 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 16:59:00 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 16:59:00 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 16:59:01 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 16:59:01 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 16:59:02 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 17:05:55 --> Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 435, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Toolbar.php(435): header('Content-Type: a...')
+#2 C:\laragon\www\ecommerce2\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 C:\laragon\www\ecommerce2\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\laragon\www\ecommerce2\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#5 C:\laragon\www\ecommerce2\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-30 17:05:55 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 17:05:57 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 17:05:57 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 17:05:57 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 17:05:59 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 17:05:59 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 17:05:59 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 17:06:13 --> Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 435, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Toolbar.php(435): header('Content-Type: a...')
+#2 C:\laragon\www\ecommerce2\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 C:\laragon\www\ecommerce2\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\laragon\www\ecommerce2\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#5 C:\laragon\www\ecommerce2\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-30 17:06:13 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 17:06:14 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 17:06:14 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 17:06:14 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 17:06:14 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 17:06:14 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 17:06:14 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 17:09:50 --> Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 435, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Toolbar.php(435): header('Content-Type: a...')
+#2 C:\laragon\www\ecommerce2\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 C:\laragon\www\ecommerce2\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\laragon\www\ecommerce2\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#5 C:\laragon\www\ecommerce2\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-30 17:09:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 17:09:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 17:09:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 17:09:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 17:09:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 17:09:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 17:09:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\laragon\www\ecommerce2\app\Config\Events.php:32) in C:\laragon\www\ecommerce2\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\laragon\\www\\...', 107, Array)
+#1 C:\laragon\www\ecommerce2\system\Debug\Exceptions.php(107): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
